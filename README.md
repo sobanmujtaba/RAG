@@ -19,11 +19,7 @@ A clean, local Retrieval-Augmented Generation (RAG) pipeline for answering quest
 
 ## Architecture
 
-```
-Docs → Chunk → Embed → FAISS
-                   ↓
-Query → Embed → Retrieve → Rerank → Context → LLM → Answer
-```
+<img src="assets/rag-architecture.png" alt="RAG Architecture" width="600"/>
 
 ---
 
